@@ -1,16 +1,15 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import Home from './Home';
-import ExampleComponent from './ExampleComponent';
-
 import {
     BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import ExampleComponent from './ExampleComponent';
 
 const Header = () => ({
   render() {
     return (
       <header className="header light-blue darken-4 z-depth-1">
-        <img alt="KefferFH" className="" src="/images/logo.png" />
+        <Link to="/"><img alt="KefferFH" className="" src="/images/logo.png" /></Link>
         <nav className="light-blue darken-4">
           <div className="nav-wrapper">
             <ul className="hide-on-med-and-down">
