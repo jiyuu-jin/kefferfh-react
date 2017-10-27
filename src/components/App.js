@@ -30,6 +30,37 @@ const Header = () => ({
   },
 });
 
+const Footer = () => ({
+  render() {
+    return (
+      <footer className="page-footer light-blue darken-4">
+        <div clasNames="container">
+          <div className="row">
+            <div className="col l6 s12">
+              <h5 className="white-text">About Us</h5>
+              <p className="grey-text text-lighten-4">Since 1966 the John W. Keffer Funeral Home has offered a professional, dignified service in keeping with individual or family desires with a sincere effort to keep expenses as reasonable as possible.</p>
+
+
+            </div>
+            <div className="col l3 s12" />
+            <div className="col l3 s12">
+              <h5 className="white-text">Connect</h5>
+              <ul>
+                <li><a className="white-text" href="#!">Keffer Funeral Home Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <div className="container">
+                  Made by <a className="brown-text text-lighten-3" href="http://pelkey.io">Zachary Pelkey</a>
+          </div>
+        </div>
+      </footer>
+    );
+  },
+});
+
 class App extends Component {
   render() {
     return (
@@ -41,6 +72,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/example" component={ExampleComponent} />
             </Switch>
+            <Footer />
           </div>
         </div>
       </Router>
