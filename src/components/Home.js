@@ -64,22 +64,22 @@ export default function Home() {
                 <a href="tel:717-845-2399">(717) 845-2399</a>
               </div>
             </div>
-          </div>
 
-          <div className="col s12 m4">
-            <div className="card z-depth-5">
-              <a className="black-text" href="https://www.google.com/maps/dir//2114+W+Market+St,+York,+PA+17404/@39.9518766,-76.7752103,17z/data=!4m16!1m7!3m6!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2s2114+W+Market+St,+York,+PA+17404!3b1!8m2!3d39.9518766!4d-76.7730216!4m7!1m0!1m5!1m1!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2m2!1d-76.7730216!2d39.9518766">
-                <div className="card-image">
-                  <img alt=" " src="https://static.wixstatic.com/media/09384e_c58db175f4144e82a0ab6fe718666dfa.jpg/v1/fill/w_200,h_120,al_c,q_80/09384e_c58db175f4144e82a0ab6fe718666dfa.webp" />
-                </div>
-                <h5 className="card-title center">Keffer Funeral Home</h5>
-                <div className="card-content center">
-                  <h6>2114 W. Market St.</h6>
-                  <p>York, PA  17404</p>
-                </div>
-              </a>
-              <a href="tel:717-792-3239">(717) 792-3239</a>
-              <p>Fax: (717) 792-3764</p>
+            <div className="col s12 m4">
+              <div className="card z-depth-5">
+                <a className="black-text" href="https://www.google.com/maps/dir//2114+W+Market+St,+York,+PA+17404/@39.9518766,-76.7752103,17z/data=!4m16!1m7!3m6!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2s2114+W+Market+St,+York,+PA+17404!3b1!8m2!3d39.9518766!4d-76.7730216!4m7!1m0!1m5!1m1!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2m2!1d-76.7730216!2d39.9518766">
+                  <div className="card-image">
+                    <img alt=" " src="https://static.wixstatic.com/media/09384e_c58db175f4144e82a0ab6fe718666dfa.jpg/v1/fill/w_200,h_120,al_c,q_80/09384e_c58db175f4144e82a0ab6fe718666dfa.webp" />
+                  </div>
+                  <h5 className="card-title center">Keffer Funeral Home</h5>
+                  <div className="card-content center">
+                    <h6>2114 W. Market St.</h6>
+                    <p>York, PA  17404</p>
+                  </div>
+                </a>
+                <a href="tel:717-792-3239">(717) 792-3239</a>
+                <p>Fax: (717) 792-3764</p>
+              </div>
             </div>
           </div>
         </div>
