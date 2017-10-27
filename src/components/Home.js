@@ -87,71 +87,70 @@ class Home extends Component {
               </div>
             </div>
           </div>
-
-          <div id="contact" className="parallax-container valign-wrapper">
-            <div className="section no-pad-bot">
-              <div className="container">
-                <div className="card">
-                  <div className="card-content">
-                    <div className="row">
-                      <form className="col s12">
-                        <div className="row">
-                          <div className="input-field col s6">
-                            <input id="first_name" type="text" className="validate" />
-                            <label htmlFor="first_name">First Name</label>
-                          </div>
-                          <div className="input-field col s6">
-                            <input id="last_name" type="text" className="validate" />
-                            <label htmlFor="last_name">Last Name</label>
-                          </div>
+        </div>
+        <div id="contact" className="parallax-container valign-wrapper">
+          <div className="section no-pad-bot">
+            <div className="container">
+              <div className="card">
+                <div className="card-content">
+                  <div className="row">
+                    <form className="col s12">
+                      <div className="row">
+                        <div className="input-field col s6">
+                          <input id="first_name" type="text" className="validate" />
+                          <label htmlFor="first_name">First Name</label>
                         </div>
-                        <div className="row">
-                          <div className="input-field col s12">
-                            <input id="email" type="email" className="validate" />
-                            <label htmlFor="email">Email</label>
-                          </div>
+                        <div className="input-field col s6">
+                          <input id="last_name" type="text" className="validate" />
+                          <label htmlFor="last_name">Last Name</label>
                         </div>
-                      </form>
-                    </div>
+                      </div>
+                      <div className="row">
+                        <div className="input-field col s12">
+                          <input id="email" type="email" className="validate" />
+                          <label htmlFor="email">Email</label>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="parallax"><img src="/images/background2.jpg" alt="Unsplashed background img 2" /></div>
           </div>
+          <div className="parallax"><img src="/images/background2.jpg" alt="Unsplashed background img 2" /></div>
+        </div>
 
 
-          <div className="container">
-            <div className="section">
-              <div className="row">
-                <div className="col s12 m3">
+        <div className="container">
+          <div className="section">
+            <div className="row">
+              <div className="col s12 m3">
+                <div className="icon-block">
+                  <h5>Caskets</h5>
+                  <img alt=" " src="/images/casket.webp" />
+                </div>
+              </div>
+              <div className="col s12 m3">
+                <div className="icon-block">
+                  <h5>Burial Containers</h5>
+                  <img alt=" " src="/images/burial_container.webp" />
+                </div>
+              </div>
+              <div className="col s12 m3">
+                <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
                   <div className="icon-block">
-                    <h5>Caskets</h5>
-                    <img alt=" " src="/images/casket.webp" />
+                    <h5>Urns</h5>
+                    <img alt=" " height="170px" src="/images/urn.png" />
                   </div>
-                </div>
-                <div className="col s12 m3">
+                </a>
+              </div>
+              <div className="col s12 m3">
+                <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
                   <div className="icon-block">
-                    <h5>Burial Containers</h5>
-                    <img alt=" " src="/images/burial_container.webp" />
+                    <h5>Prayer Cards</h5>
+                    <img alt=" " height="170px" src="/images/prayer_card.webp" />
                   </div>
-                </div>
-                <div className="col s12 m3">
-                  <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
-                    <div className="icon-block">
-                      <h5>Urns</h5>
-                      <img alt=" " height="170px" src="/images/urn.png" />
-                    </div>
-                  </a>
-                </div>
-                <div className="col s12 m3">
-                  <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
-                    <div className="icon-block">
-                      <h5>Prayer Cards</h5>
-                      <img alt=" " height="170px" src="/images/prayer_card.webp" />
-                    </div>
-                  </a>
-                </div>
+                </a>
               </div>
             </div>
           </div>
