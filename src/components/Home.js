@@ -3,7 +3,27 @@ import React, { Component } from 'react';
 import 'materialize-css';
 
 
+const openModal = () => {
+  $('#modal1').modal('open');
+};
+
 class Home extends Component {
+  componentDidMount() {
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax();
+    $('#modal1').modal();
+    $('.dropdown-content').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false, // Stops event propagation
+    });
+    $('.carousel.carousel-slider').carousel({ fullWidth: true });
+  }
   render() {
     return (
       <div>
@@ -23,7 +43,7 @@ class Home extends Component {
 
                 <div className="search-contain">
                   <h5>Search Obituaries</h5>
-                  <input onClick={$('#modal1').modal('open')} />
+                  <input onClick={openModal} />
                 </div>
               </div>
             </div>
@@ -210,22 +230,6 @@ class Home extends Component {
         </div>
       </div>
     );
-  }
-  componentDidMount() {
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    $('#modal1').modal();
-    $('.dropdown-content').dropdown({
-      inDuration: 300,
-      outDuration: 225,
-      constrainWidth: false, // Does not change width of dropdown to that of the activator
-      hover: true, // Activate on hover
-      gutter: 0, // Spacing from edge
-      belowOrigin: false, // Displays dropdown below the button
-      alignment: 'left', // Displays dropdown with edge aligned to the left of button
-      stopPropagation: false, // Stops event propagation
-    });
-    $('.carousel.carousel-slider').carousel({ fullWidth: true });
   }
 }
 
