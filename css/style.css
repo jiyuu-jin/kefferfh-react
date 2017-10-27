@@ -1,0 +1,114 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav{
+  -webkit-box-shadow: none;
+ }
+
+nav ul a{
+
+}
+
+.card.card-content{
+  padding: 0px;
+}
+
+.modal{
+  height: 80vh;
+}
+
+
+.legacy-search{
+  width: 100%;
+  height: 80vh;
+}
+
+.icon-block{
+  text-align: center;
+}
+
+p {
+  line-height: 2rem;
+}
+
+header nav ul.hide-on-med-and-down li {
+    float: none;
+    display: inline-flex;
+}
+
+.staff-title{
+  display: block;
+}
+
+.staff{
+  display: flex;
+}
+
+.staff div{
+  width: calc(100% * (1/4) - 10px - 1px);
+  margin: 0 auto;
+  display: inline-flex;
+}
+.search-contain{
+  text-align: center;
+  display: flex;
+}
+
+.search-contain h5{
+  display: inline-flex;
+}
+
+.search-contain input{
+  display: inline-flex;
+}
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+header{
+  padding: 2em 0 0 0;
+  text-align: center;
+  height: 100%;
+}  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
