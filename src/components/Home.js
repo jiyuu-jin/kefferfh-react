@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import $ from 'jquery';
+import 'materialize-css';
 
 
 class Home extends Component {
