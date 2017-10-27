@@ -23,7 +23,7 @@ class Home extends Component {
 
                 <div className="search-contain">
                   <h5>Search Obituaries</h5>
-                  <input onClick="$('#modal1').modal('open');" />
+                  <input onClick={$('#modal1').modal('open')} />
                 </div>
               </div>
             </div>
