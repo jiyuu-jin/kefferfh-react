@@ -15,7 +15,10 @@ const Header = () => ({
           <div className="nav-wrapper">
             <ul className="hide-on-med-and-down">
               <li>
-                <Link to="/example">Price Lists</Link>
+                <Link to="/prices">Price Lists</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/florists">Local Florists</Link>
+                <Link to="/about">About</Link>
               </li>
             </ul>
 
