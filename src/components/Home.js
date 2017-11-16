@@ -145,7 +145,7 @@ class Home extends Component {
           <div className="section">
             <div className="row">
               <div className="col s12 m3">
-                <a href="/caskets">
+                <a className="black-text" href="/caskets">
                   <div className="icon-block">
                     <h5>Caskets</h5>
                     <img alt=" " src="/images/casket.webp" />
@@ -153,7 +153,7 @@ class Home extends Component {
                 </a>
               </div>
               <div className="col s12 m3">
-                <a href="/containers">
+                <a className="black-text" href="/containers">
                   <div className="icon-block">
                     <h5>Burial Containers</h5>
                     <img alt=" " src="/images/burial_container.webp" />
