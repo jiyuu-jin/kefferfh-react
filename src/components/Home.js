@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import 'materialize-css';
-
+import Link from 'react-router-dom';
 
 const openModal = () => {
   $('#modal1').modal('open');
@@ -145,16 +145,20 @@ class Home extends Component {
           <div className="section">
             <div className="row">
               <div className="col s12 m3">
-                <div className="icon-block">
-                  <h5>Caskets</h5>
-                  <img alt=" " src="/images/casket.webp" />
-                </div>
+                <a href="/caskets">
+                  <div className="icon-block">
+                    <h5>Caskets</h5>
+                    <img alt=" " src="/images/casket.webp" />
+                  </div>
+                </a>
               </div>
               <div className="col s12 m3">
-                <div className="icon-block">
-                  <h5>Burial Containers</h5>
-                  <img alt=" " src="/images/burial_container.webp" />
-                </div>
+                <a href="/containers">
+                  <div className="icon-block">
+                    <h5>Burial Containers</h5>
+                    <img alt=" " src="/images/burial_container.webp" />
+                  </div>
+                </a>
               </div>
               <div className="col s12 m3">
                 <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">

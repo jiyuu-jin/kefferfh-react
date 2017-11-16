@@ -6,6 +6,8 @@ import Home from './Home';
 import Prices from './prices';
 import Florists from './florists';
 import About from './about';
+import Caskets from './caskets';
+import Containers from './burial-containers';
 
 import ExampleComponent from './ExampleComponent';
 
@@ -78,6 +80,8 @@ class App extends Component {
               <Route path="/prices" component={Prices} />
               <Route path="/florists" component={Florists} />
               <Route path="/about" component={About} />
+              <Route path="/caskets" component={Caskets} />
+              <Route path="/containers" component={Containers} />
             </Switch>
             <Footer />
           </div>
