@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
+import Prices from './prices';
+import Florists from './florists';
+import About from './about';
+
 import ExampleComponent from './ExampleComponent';
 
 const Header = () => ({
@@ -15,7 +19,7 @@ const Header = () => ({
             <ul className="hide-on-med-and-down">
               <li>
                 <Link to="/prices">Price Lists</Link>
-                <Link to="/contact">Contact</Link>
+                <a href="#contact">Contact</a>
                 <Link to="/florists">Local Florists</Link>
                 <Link to="/about">About</Link>
               </li>
@@ -71,6 +75,9 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/example" component={ExampleComponent} />
+              <Route path="/prices" component={Prices} />
+              <Route path="/florists" component={Florists} />
+              <Route path="/about" component={About} />
             </Switch>
             <Footer />
           </div>
