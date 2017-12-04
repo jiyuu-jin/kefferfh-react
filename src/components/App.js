@@ -15,24 +15,38 @@ const Header = () => ({
   render() {
     return (
       <header className="header light-blue darken-4 z-depth-1">
+        <ul id="dropdown1" className="dropdown-content">
+          <li><Link to="/funeral">Funeral</Link></li>
+          <li><Link to="/cremation-direct">Cremation Direct</Link></li>
+          <li><Link to="/cremation">Cremation Prices</Link></li>
+        </ul>
         <Link to="/"><img alt="KefferFH" className="" src="/images/logo.png" /></Link>
         <nav className="light-blue darken-4">
           <div className="nav-wrapper">
             <ul className="hide-on-med-and-down">
-              <li>
-                <Link to="/prices">Price Lists</Link>
-                <a href="#contact">Contact</a>
-                <Link to="/florists">Local Florists</Link>
-                <Link to="/about">About</Link>
-              </li>
+              <li><Link to="/prices">Price Lists</Link></li>
+              <li><Link className="dropdown-button" data-activates="dropdown1" to="/services">Services</Link></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><Link to="/florists">Local Florists</Link></li>
+              <li><Link to="/about">About</Link></li>
             </ul>
 
-            <ul id="nav-mobile" className="side-nav" />
+            <ul id="nav-mobile" className="side-nav" >
+              <li><Link to="/prices">Price Lists</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><Link to="/florists">Local Florists</Link></li>
+              <li><Link to="/about">About</Link></li>
+            </ul>
             <a data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
           </div>
         </nav>
       </header>
     );
+  },
+
+  componentDidMount() {
+    $('.dropdown-button').dropdown();
   },
 });
 
