@@ -126,6 +126,11 @@ class Home extends Component {
                           <label htmlFor="email">Email</label>
                         </div>
                       </div>
+                      <center>
+                      <button className="btn waves-effect waves-light" type="submit" name="action">
+                        <i className="material-icons right">send</i>
+                      </button>
+                      </center>
                     </form>
                   </div>
                 </div>
