@@ -106,7 +106,7 @@ class Home extends Component {
         <div id="contact" className="parallax-container valign-wrapper">
           <div className="section no-pad-bot">
             <div className="container">
-              <div className="card">
+              <div className="card card-up">
                 <div className="card-content">
                   <div className="row">
                     <form className="col s12">

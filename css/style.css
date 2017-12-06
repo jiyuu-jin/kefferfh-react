@@ -82,6 +82,12 @@ nav ul a{
     justify-content: center;
 }
 
+
+.card-up{
+    margin-top: -120px;
+}
+
+
 .logo-text{
     margin-top: -10px;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
