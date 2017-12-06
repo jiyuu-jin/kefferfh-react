@@ -49,9 +49,9 @@ class Home extends Component {
         <div className="container">
           <div className="section">
 
-            <div className="row">
+            <div className="row hover-contain">
 
-              <div className="col s12 m4">
+              <div className="col s12 m4 hover-thing">
                 <div className="card z-depth-5">
                   <a className="black-text" href="https://www.google.com/maps/dir//John+W+Keffer+Funeral+Home+Inc,+902+Mt+Rose+Ave,+York,+PA+17403/@39.9609965,-76.7092943,17z/data=!4m15!1m6!3m5!1s0x89c88ec6f9dd0131:0xce3ff1ada7892b06!2sJohn+W+Keffer+Funeral+Home+Inc!8m2!3d39.9609965!4d-76.7071056!4m7!1m0!1m5!1m1!1s0x89c88ec6f9dd0131:0xce3ff1ada7892b06!2m2!1d-76.7071056!2d39.9609965">
                     <div className="card-image">
@@ -68,7 +68,7 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div className="col s12 m4">
+              <div className="col s12 m4 hover-thing">
                 <div className="card z-depth-5">
                   <a className="black-text" href="https://www.google.com/maps/dir/''/371+Kings+Mill+Rd,+York,+PA+17401/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c88eaa91b286f7:0xe8c44fa381f4efc6?sa=X&ved=0ahUKEwjao7CZwcTVAhVLMSYKHdUFAOUQwwUIKTAA">
                     <div className="card-image">
@@ -84,7 +84,7 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div className="col s12 m4">
+              <div className="col s12 m4 hover-thing">
                 <div className="card z-depth-5">
                   <a className="black-text" href="https://www.google.com/maps/dir//2114+W+Market+St,+York,+PA+17404/@39.9518766,-76.7752103,17z/data=!4m16!1m7!3m6!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2s2114+W+Market+St,+York,+PA+17404!3b1!8m2!3d39.9518766!4d-76.7730216!4m7!1m0!1m5!1m1!1s0x89c88b86be60ea29:0x91b62406d9c1360a!2m2!1d-76.7730216!2d39.9518766">
                     <div className="card-image">
