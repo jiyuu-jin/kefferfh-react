@@ -23,7 +23,9 @@ const Header = () => ({
           <li><Link to="/cremation">Cremation</Link></li>
           <li><Link to="/immediate-burial">Immediate Burial</Link></li>
         </ul>
-        <Link to="/"><img alt="KefferFH" className="" src="/images/logo.png" /></Link>
+        <Link to="/"><img alt="KefferFH" className="" src="/images/logo.png" />
+          <div className="logo-text">AND CREMATORY INC</div>
+        </Link>
         <nav className="light-blue darken-4">
           <div className="nav-wrapper">
             <ul className="hide-on-med-and-down">
