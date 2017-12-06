@@ -12,6 +12,7 @@ import Funeral from './funeral';
 import Cremation from './cremation';
 
 import ExampleComponent from './ExampleComponent';
+import ImmediateBurial from './ImmediateBurial';
 
 const Header = () => ({
   render() {
@@ -56,7 +57,7 @@ const Footer = () => ({
   render() {
     return (
       <footer className="page-footer light-blue darken-4">
-        <div clasNames="container">
+        <div className="foot-container">
           <div className="row">
             <div className="col l6 s12">
               <h5 className="white-text">About Us</h5>
@@ -75,7 +76,7 @@ const Footer = () => ({
         </div>
         <div className="footer-copyright">
           <div className="container">
-                  Made by <a className="brown-text text-lighten-3" href="http://pelkey.io">Zachary Pelkey</a>
+            Copyright © 2001-2017 John W. Keffer Funeral Home Inc. All Rights Reserved. - Created by <a className="brown-text text-lighten-3" href="http://pelkey.io">Zachary Pelkey</a>
           </div>
         </div>
       </footer>
@@ -100,6 +101,7 @@ class App extends Component {
               <Route path="/containers" component={Containers} />
               <Route path="/funeral" component={Funeral} />
               <Route path="/cremation" component={Cremation} />
+              <Route path="/immediate-burial" component={ImmediateBurial} />
             </Switch>
             <Footer />
           </div>

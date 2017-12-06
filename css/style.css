@@ -58,6 +58,10 @@ nav ul a{
     margin-left: 35px;
 }
 
+.foot-container{
+    padding: 20px 50px 30px 50px;
+}
+
 
 .disc-list{
     list-style-type: disc !important;
@@ -71,6 +75,16 @@ nav ul a{
 .casketOffset{
   display: block;
   margin: 0 auto;
+}
+
+.thestaff{
+    display: flex;
+    justify-content: center;
+}
+
+.thestaff img{
+    display: flex;
+    margin: 0 auto;
 }
 
 header nav ul.hide-on-med-and-down li {
