@@ -27,13 +27,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div id="modal1" className="modal">
-          <div className="modal-content">
-            <iframe className="legacy-search" src="https://www.legacy.com/search?cityId=297134&cityUrl=york&countryId=366899&countryUrl=united-states-of-america&dateRange=Last30Days&firstName=&stateAbbrev=PA&stateId=366890&stateUrl=pennsylvania" />
-          </div>
-          <div className="modal-footer">
-            <a href="#!" className="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-          </div>
+        <div height="100%" id="modal1" className="modal">
+          <iframe className="legacy-search" src="https://www.legacy.com/search?cityId=297134&cityUrl=york&countryId=366899&countryUrl=united-states-of-america&dateRange=Last30Days&firstName=&stateAbbrev=PA&stateId=366890&stateUrl=pennsylvania" />
         </div>
         <div>
           <div className="container">

@@ -25,7 +25,12 @@ nav ul a{
 
 .legacy-search{
   width: 100%;
-  height: 80vh;
+  height: 90vh;
+}
+
+#modal1{
+  max-height: 90vh;
+  overflow-y: hidden !important;
 }
 
 .icon-block{
