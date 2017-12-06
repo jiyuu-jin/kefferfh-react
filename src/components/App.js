@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/prefer-stateless-function,jsx-a11y/no-static-element-interactions */
 import React, { Component } from 'react';
 import {
     BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -15,6 +15,12 @@ import ExampleComponent from './ExampleComponent';
 import ImmediateBurial from './ImmediateBurial';
 
 const Header = () => ({
+
+    closeNav() {
+        console.log('Closing the sidebar');
+        $('.button-collapse').sideNav('hide');
+    },
+
   render() {
     return (
       <header className="header light-blue darken-4 z-depth-1">
@@ -36,9 +42,11 @@ const Header = () => ({
               <li><Link to="/about">About</Link></li>
             </ul>
 
-            <ul id="nav-mobile" className="side-nav" >
+            <ul onClick={this.closeNav} id="nav-mobile" className="side-nav" >
               <li><Link to="/prices">Price Lists</Link></li>
-              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/funeral">Funeral</Link></li>
+              <li><Link to="/cremation">Cremation</Link></li>
+              <li><Link to="/immediate-burial">Immediate Burial</Link></li>
               <li><a href="#contact">Contact</a></li>
               <li><Link to="/florists">Local Florists</Link></li>
               <li><Link to="/about">About</Link></li>
