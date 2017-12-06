@@ -5,6 +5,7 @@ class Prices extends Component {
   render() {
     return (
       <div className="container">
+        <h4 className="blue-text">General Price List</h4>
         <p>Effective January 1, 2017</p>
 
           The goods and services shown are those we can provide to our customers.  You may choose only the items you desire.  However, any funeral arrangements you select will include a charge for our basic services and overhead.  If legal or other requirements mean you must buy items you did not specifically ask for, we will explain the reason in writing on the statement we provide describing the funeral goods and services you selected.
@@ -99,7 +100,7 @@ class Prices extends Component {
             <li>Immediate burial with container provided by purchaser.: $1,570.00</li>
           </ol>
 
-          <h6 className="blue-text">A LIST OF IMMEDIATE BURIAL SERVICE WITH ADDITIONAL SERVICES AND CHARGES IS AVAILABLE FROM FUNERAL HOME.</h6>
+        <h6 className="blue-text">A LIST OF IMMEDIATE BURIAL SERVICE WITH ADDITIONAL SERVICES AND CHARGES IS AVAILABLE FROM FUNERAL HOME.</h6>
 
         <h6 className="blue-text">DIRECT CREMATIONS - $965.00 to $7,540.00</h6>
           Our charge for a direct cremation without any attendant rites or ceremonies includes:
@@ -123,11 +124,11 @@ class Prices extends Component {
 
         <p>If you want to arrange a direct cremation, you can use the alternative container.  Alternative containers encase the body and can be made of materials like fiberboard or composition materials (with or without outside covering).  The containers we provide are reinforced cardboard.</p>
 
-        <h6>Direct Cremation with alternative container - $965.00
-              Description: Reinforced cardboard</h6>
+        <hp>Direct Cremation with alternative container - $965.00
+              Description: Reinforced cardboard</hp>
 
 
-        <h6>Direct Cremation with container provided by purchaser - $880.00</h6>
+        <p>Direct Cremation with container provided by purchaser - $880.00</p>
 
 
         <h6 className="blue-text">Payment Policy</h6>

@@ -8,6 +8,8 @@ import Florists from './florists';
 import About from './about';
 import Caskets from './caskets';
 import Containers from './burial-containers';
+import Funeral from './funeral';
+import Cremation from './cremation';
 
 import ExampleComponent from './ExampleComponent';
 
@@ -17,8 +19,8 @@ const Header = () => ({
       <header className="header light-blue darken-4 z-depth-1">
         <ul id="dropdown1" className="dropdown-content">
           <li><Link to="/funeral">Funeral</Link></li>
-          <li><Link to="/cremation-direct">Cremation Direct</Link></li>
-          <li><Link to="/cremation">Cremation Prices</Link></li>
+          <li><Link to="/cremation">Cremation</Link></li>
+          <li><Link to="/immediate-burial">Immediate Burial</Link></li>
         </ul>
         <Link to="/"><img alt="KefferFH" className="" src="/images/logo.png" /></Link>
         <nav className="light-blue darken-4">
@@ -96,6 +98,8 @@ class App extends Component {
               <Route path="/about" component={About} />
               <Route path="/caskets" component={Caskets} />
               <Route path="/containers" component={Containers} />
+              <Route path="/funeral" component={Funeral} />
+              <Route path="/cremation" component={Cremation} />
             </Switch>
             <Footer />
           </div>

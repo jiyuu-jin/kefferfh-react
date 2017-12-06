@@ -37,8 +37,40 @@ nav ul a{
   text-align: center;
 }
 
-p {
-  line-height: 2rem;
+
+.casket-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.casket-bar a{
+    display: flex;
+    margin:0 auto 20px auto;
+    color: black;
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.push-right{
+    margin-left: 35px;
+}
+
+
+.disc-list{
+    list-style-type: disc !important;
+}
+
+.disc-list li{
+    list-style-type: disc !important;
+    margin-left: 35px;
+}
+
+.casketOffset{
+  display: block;
+  margin: 0 auto;
 }
 
 header nav ul.hide-on-med-and-down li {

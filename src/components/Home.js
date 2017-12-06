@@ -156,7 +156,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="col s12 m3">
-                <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
+                <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/puredefault.html">
                   <div className="icon-block">
                     <h5>Urns</h5>
                     <img alt=" " height="170px" src="/images/urn.png" />
