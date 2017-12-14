@@ -12,16 +12,16 @@ const Cards = () => ({
         <div className="slider">
           <ul className="slides">
             <li>
-              <img alt="" src="https://lorempixel.com/580/250/nature/1" />
+              <img alt="" src="/images/cards/card1.jpg" />
             </li>
             <li>
-              <img alt="" src="https://lorempixel.com/580/250/nature/2" />
+              <img alt="" src="/images/cards/card2.jpg" />
             </li>
             <li>
-              <img alt="" src="https://lorempixel.com/580/250/nature/3" />
+              <img alt="" src="/images/cards/card3.png" />
             </li>
             <li>
-              <img alt="" src="https://lorempixel.com/580/250/nature/4" />
+              <img alt="" src="/images/cards/card4.png" />
             </li>
           </ul>
         </div>

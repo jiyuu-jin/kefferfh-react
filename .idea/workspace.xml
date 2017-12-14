@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d11b6a7-5fb3-41b9-b200-dfe4824b7072" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/cards.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cards.js" afterPath="$PROJECT_DIR$/src/components/cards.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="365">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="63" selection-end-column="4" />
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="63" selection-end-column="4" />
               <folding>
                 <element signature="e#93#134#0" expanded="true" />
               </folding>
@@ -47,8 +44,8 @@
       <file leaf-file-name="cards.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/cards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="390">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -68,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="172" column="46" lean-forward="true" selection-start-line="172" selection-start-column="46" selection-end-line="172" selection-end-column="46" />
+              <caret line="172" column="46" lean-forward="false" selection-start-line="172" selection-start-column="46" selection-end-line="172" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#53#94#0" expanded="true" />
@@ -103,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/cremation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -313,12 +310,12 @@
       <workItem from="1510794623794" duration="4888000" />
       <workItem from="1512391355662" duration="421000" />
       <workItem from="1512391809526" duration="19690000" />
-      <workItem from="1513263294784" duration="1231000" />
+      <workItem from="1513263294784" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39252000" />
+    <option name="totallyTimeSpent" value="39609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -668,7 +665,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/cremation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -738,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="172" column="46" lean-forward="true" selection-start-line="172" selection-start-column="46" selection-end-line="172" selection-end-column="46" />
+          <caret line="172" column="46" lean-forward="false" selection-start-line="172" selection-start-column="46" selection-end-line="172" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#53#94#0" expanded="true" />
@@ -759,7 +756,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="63" selection-end-column="4" />
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="63" selection-end-column="4" />
           <folding>
             <element signature="e#93#134#0" expanded="true" />
           </folding>
@@ -768,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/cards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="390">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>
