@@ -12,7 +12,7 @@ const Cards = () => ({
         <div className="slider">
           <ul className="slides">
             <li>
-              <img alt="" src="/images/cards/card1.jpg" />
+              <img height="400px" alt="" src="/images/cards/card1.jpg" />
             </li>
             <li>
               <img alt="" src="/images/cards/card2.jpg" />
