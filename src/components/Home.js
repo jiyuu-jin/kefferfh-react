@@ -169,12 +169,12 @@ class Home extends Component {
                 </a>
               </div>
               <div className="col s12 m3">
-                <a className="black-text" href="http://www.pageturnpro.com/Crescent-Memorial/47278-Crescent-Memorial/index.html">
+                <Link className="black-text" to="/cards">
                   <div className="icon-block">
                     <h5>Prayer Cards</h5>
                     <img alt=" " height="170px" src="/images/prayer_card.webp" />
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

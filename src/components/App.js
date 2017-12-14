@@ -13,13 +13,14 @@ import Cremation from './cremation';
 
 import ExampleComponent from './ExampleComponent';
 import ImmediateBurial from './ImmediateBurial';
+import Cards from './cards';
 
 const Header = () => ({
 
-    closeNav() {
-        console.log('Closing the sidebar');
-        $('.button-collapse').sideNav('hide');
-    },
+  closeNav() {
+    console.log('Closing the sidebar');
+    $('.button-collapse').sideNav('hide');
+  },
 
   render() {
     return (
@@ -112,6 +113,7 @@ class App extends Component {
               <Route path="/funeral" component={Funeral} />
               <Route path="/cremation" component={Cremation} />
               <Route path="/immediate-burial" component={ImmediateBurial} />
+              <Route path="/cards" component={Cards} />
             </Switch>
             <Footer />
           </div>
