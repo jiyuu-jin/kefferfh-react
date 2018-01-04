@@ -31,6 +31,21 @@ const Cards = () => ({
 
         <center>
 
+
+          <h4>Prayers</h4>
+
+
+          <h5>Selection 1</h5>
+
+          <span>May the Angels lead you into paradise, may the Martyrs receive you at your coming, and take you to Jerusalem, the holy city.<br />
+
+            May the choir of angels receive you, and may you with the once poor Lazarus, have rest eternal.<br />
+
+            (Roman Ritual)<br />
+
+            May the Souls of all the faithful departed, through the mercy of God, rest in peace, Amen.<br />
+          </span>
+
           <h5>Selection 2</h5>
           <span>
                 Make me an instrument of thy peace;
@@ -135,7 +150,7 @@ const Cards = () => ({
         He restoreth my soul; He leadeth me inthe paths of righteousness for his name's sake.
         Yea,  though I walk  through  the valley of  the  shadow of  death I  will fear no evil for  thou art with me; thy rod and thy staff they comfort me. <br />
 
-        Thou preparest a table before me in the presence of mine enemies; thou annointest my head with oil; my cup runneth over.                                                                                             <br />
+        Thou preparest a table before me in the presence of mine enemies; thou annointest my head with oil; my cup runneth over.                                                                                                                           <br />
         Surely goodness and mercy shall  follow me all the days of my life; and I will  dwell in the house of the  Lord <br />
           </span>
 
@@ -195,9 +210,9 @@ const Cards = () => ({
           </span>
 
 
-            <h5>Selection 10</h5>
+          <h5>Selection 10</h5>
 
-            <span>
+          <span>
                 MISS ME - BUT LET ME GO <br />
                 When I come to the end of the road <br />
                 and the sun has set for me,
@@ -221,7 +236,7 @@ const Cards = () => ({
                 In doing good deeds. <br />
                 Miss me - but let me go. <br />
 
-            </span>
+          </span>
 
         </center>
 
