@@ -98,6 +98,10 @@ nav ul a{
 }
 
 
+.input-field{
+    color: black;
+}
+
 header nav ul.hide-on-med-and-down li {
     float: none;
     display: inline-flex;
@@ -149,6 +153,7 @@ header{
 
 
 .slider .slides li img{
+    background-repeat: no-repeat;
     background-size: auto !important;
 }
 
