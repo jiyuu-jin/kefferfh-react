@@ -82,8 +82,9 @@ nav ul a{
     justify-content: center;
 }
 
-
-
+.staff-mem{
+    display: inline-block;
+}
 
 
 .services{
@@ -92,16 +93,10 @@ nav ul a{
 
 .logo-text{
     margin-top: -10px;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
-    -webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
-    color: #d1d1d1;
+    color: #a29e9e;
     font-style: italic;
 }
 
-.thestaff img{
-    display: flex;
-    margin: 0 auto;
-}
 
 header nav ul.hide-on-med-and-down li {
     float: none;

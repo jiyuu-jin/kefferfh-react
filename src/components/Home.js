@@ -183,13 +183,55 @@ class Home extends Component {
         <div className="section light-blue darken-4 center">
           <h4 className="white-text">Our Staff</h4>
           <div className="the-staff">
-            <img alt=" " height="200px" src="/images/john_keffer.webp" />
-            <img alt=" " height="200px" src="/images/joseph_keffer.webp" />
-            <img alt=" " height="200px" src="/images/george_curilla.webp" />
-            <img alt=" " height="200px" src="/images/robert_ramsey.webp" />
-            <img alt=" " height="200px" src="/images/sean_pelkey.webp" />
-            <img alt=" " height="200px" src="/images/kevin_sandmeyer.webp" />
-            <img alt=" " height="200px" src="/images/john_keffer_2.webp" />
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/john_keffer.webp" />
+              <div className="staff-title">
+                <span>John W. Keffer</span> <br />
+                <span>Supervisor</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/joseph_keffer.webp" />
+              <div className="staff-title">
+                <span>Joseph V. Keffer</span> <br />
+                <span>Supervisor</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/george_curilla.webp" />
+              <div className="staff-title">
+                <span>George J. Curilla</span> <br />
+                <span>Funeral Director</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/robert_ramsey.webp" />
+              <div className="staff-title">
+                <span>Robert W. Ramsey</span> <br />
+                <span>Funeral Director</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/sean_pelkey.webp" />
+              <div className="staff-title">
+                <span>Sean S. Pelkey</span> <br />
+                <span>Funeral Director</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/kevin_sandmeyer.webp" />
+              <div className="staff-title">
+                <span>Kevin C. Sandmeyer</span> <br />
+                <span>Office Manger</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/john_keffer_2.webp" />
+              <div className="staff-title">
+                <span>John W. Keffer, III</span> <br />
+                <span>Admin. Associate</span>
+              </div>
+            </div>
           </div>
         </div>
 
