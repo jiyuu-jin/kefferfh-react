@@ -23,6 +23,9 @@ const Cards = () => ({
             <li>
               <img alt="" src="/images/cards/card4.png" />
             </li>
+            <li>
+              <img alt="" src="/images/cards/card5.png" />
+            </li>
           </ul>
         </div>
 
@@ -150,7 +153,7 @@ const Cards = () => ({
         He restoreth my soul; He leadeth me inthe paths of righteousness for his name's sake.
         Yea,  though I walk  through  the valley of  the  shadow of  death I  will fear no evil for  thou art with me; thy rod and thy staff they comfort me. <br />
 
-        Thou preparest a table before me in the presence of mine enemies; thou annointest my head with oil; my cup runneth over.                                                                                                                           <br />
+        Thou preparest a table before me in the presence of mine enemies; thou annointest my head with oil; my cup runneth over.                                                                                                                                     <br />
         Surely goodness and mercy shall  follow me all the days of my life; and I will  dwell in the house of the  Lord <br />
           </span>
 
