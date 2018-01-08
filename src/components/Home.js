@@ -146,7 +146,7 @@ class Home extends Component {
               <img alt=" " height="200px" src="/images/kevin_sandmeyer.webp" />
               <div className="staff-title">
                 <span>Kevin C. Sandmeyer</span> <br />
-                <span>Office Manger</span>
+                <span>Office Manager</span>
               </div>
             </div>
             <div className="staff-mem">
