@@ -8,7 +8,7 @@ const About = () => ({
         <br />
         <div className="row">
           <div className="col m6 center">
-            <img className="sizable" alt="" src="/images/stock.webp" />
+            <img className="sizable" alt="" src="/images/stock.jpg" />
           </div>
           <div className="col m6">
             <h5>About Keffer Funeral Home, Inc.</h5>
