@@ -204,7 +204,7 @@ class Home extends Component {
               <div className="card card-up">
                 <div className="card-content">
                   <div className="row">
-                    <form className="col s12">
+                    <form method="POST" className="col s12" action="https://formspree.io/kefferfh@aol.com">
                       <div className="row">
                         <div className="input-field col s6">
                           <input id="first_name" type="text" className="validate" />
@@ -221,8 +221,12 @@ class Home extends Component {
                           <label htmlFor="email">Email</label>
                         </div>
                       </div>
+                      <div className="input-field col s12">
+                        <input id="message" type="text" className="validate" />
+                        <label htmlFor="message">Brief Message</label>
+                      </div>
                       <center>
-                        <button className="btn waves-effect waves-light" type="submit" name="action">
+                        <button className="btn waves-effect waves-light" value="send" type="submit" name="action">
                           <i className="material-icons right">send</i>
                         </button>
                       </center>
@@ -234,7 +238,6 @@ class Home extends Component {
           </div>
           <div className="parallax"><img src="/images/background2.jpg" alt="Unsplashed background img 2" /></div>
         </div>
-
 
 
         <div className="container center">

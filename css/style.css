@@ -102,6 +102,11 @@ nav ul a{
     color: black;
 }
 
+#textarea1{
+    color: black;
+}
+
+
 header nav ul.hide-on-med-and-down li {
     float: none;
     display: inline-flex;
