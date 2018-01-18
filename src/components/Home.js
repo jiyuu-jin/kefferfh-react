@@ -108,49 +108,49 @@ class Home extends Component {
           <h4 className="white-text">Our Staff</h4>
           <div className="the-staff">
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/john_keffer.webp" />
+              <img alt=" " height="200px" src="/images/john_keffer.jpg" />
               <div className="staff-title">
                 <span>John W. Keffer</span> <br />
                 <span>Supervisor</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/joseph_keffer.webp" />
+              <img alt=" " height="200px" src="/images/joseph_keffer.jpg" />
               <div className="staff-title">
                 <span>Joseph V. Keffer</span> <br />
                 <span>Supervisor</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/george_curilla.webp" />
+              <img alt=" " height="200px" src="/images/george_curilla.jpg" />
               <div className="staff-title">
                 <span>George J. Curilla</span> <br />
                 <span>Funeral Director</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/robert_ramsey.webp" />
+              <img alt=" " height="200px" src="/images/robert_ramsey.jpg" />
               <div className="staff-title">
                 <span>Robert W. Ramsey</span> <br />
                 <span>Funeral Director</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/sean_pelkey.webp" />
+              <img alt=" " height="200px" src="/images/sean_pelkey.jpg" />
               <div className="staff-title">
                 <span>Sean S. Pelkey</span> <br />
                 <span>Funeral Director</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/kevin_sandmeyer.webp" />
+              <img alt=" " height="200px" src="/images/kevin_sandmeyer.jpg" />
               <div className="staff-title">
                 <span>Kevin C. Sandmeyer</span> <br />
                 <span>Office Manager</span>
               </div>
             </div>
             <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/john_keffer_2.webp" />
+              <img alt=" " height="200px" src="/images/john_keffer_2.jpg" />
               <div className="staff-title">
                 <span>John W. Keffer, III</span> <br />
                 <span>Admin. Associate</span>
@@ -166,7 +166,7 @@ class Home extends Component {
                 <Link className="black-text" to="/caskets">
                   <div className="icon-block">
                     <h5>Caskets</h5>
-                    <img alt=" " src="/images/casket.webp" />
+                    <img alt=" " src="/images/casket.jpg" />
                   </div>
                 </Link>
               </div>
@@ -174,7 +174,7 @@ class Home extends Component {
                 <Link className="black-text" to="/containers">
                   <div className="icon-block">
                     <h5>Burial Containers</h5>
-                    <img alt=" " src="/images/burial_container.webp" />
+                    <img alt=" " src="/images/burial_container.jpg" />
                   </div>
                 </Link>
               </div>
@@ -190,7 +190,7 @@ class Home extends Component {
                 <Link className="black-text" to="/cards">
                   <div className="icon-block">
                     <h5>Prayer Cards</h5>
-                    <img alt=" " height="170px" src="/images/prayer_card.webp" />
+                    <img alt=" " height="170px" src="/images/prayer_card.jpg" />
                   </div>
                 </Link>
               </div>
