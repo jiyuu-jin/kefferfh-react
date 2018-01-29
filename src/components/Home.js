@@ -207,22 +207,22 @@ class Home extends Component {
                     <form method="POST" className="col s12" action="https://formspree.io/kefferfh@aol.com">
                       <div className="row">
                         <div className="input-field col s6">
-                          <input id="first_name" type="text" className="validate" />
+                          <input name="first_name" id="first_name" type="text" className="validate" />
                           <label htmlFor="first_name">First Name</label>
                         </div>
                         <div className="input-field col s6">
-                          <input id="last_name" type="text" className="validate" />
+                          <input name="last_name" id="last_name" type="text" className="validate" />
                           <label htmlFor="last_name">Last Name</label>
                         </div>
                       </div>
                       <div className="row">
                         <div className="input-field col s12">
-                          <input id="email" type="email" className="validate" />
+                          <input name="_replyto" id="email" type="email" className="validate" />
                           <label htmlFor="email">Email</label>
                         </div>
                       </div>
                       <div className="input-field col s12">
-                        <input id="message" type="text" className="validate" />
+                        <input name="message" id="message" type="text" className="validate" />
                         <label htmlFor="message">Brief Message</label>
                       </div>
                       <center>
