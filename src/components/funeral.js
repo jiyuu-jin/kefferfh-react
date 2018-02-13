@@ -5,6 +5,9 @@ const Funeral = () => ({
   render() {
     return (
       <div className="container">
+
+        <h3 className="inTheBlue">Effective: January 1, 2018</h3>
+
         <h4 className="blue-text">Complete Funeral Service Packages</h4>
         <h6> Our Service including:</h6>
         <ul className="disc-list">
@@ -16,22 +19,22 @@ const Funeral = () => ({
           <li>Scheduled one-hour viewing period</li>
         </ul>
 
-        <p className="bold">Total of above package (Does not include a casket selection): $4,515.00</p>
+        <p className="bold">Total of above package (Does not include a casket selection): $4,615.00</p>
 
         <h6 className="blue-text">Selection One</h6>
-          Above package with a Bradford 20 ga. Steel non-sealing casket ($760.00): $5,275.00
+          Above package with a Bradford 20 ga. Steel non-sealing casket ($790.00): $5,405.00
 
           <h6 className="blue-text">Selection Two</h6>
-          Above package with a Atlantic 20 ga. Steel sealing casket ($1,535.00): $6,050.00
+          Above package with a Atlantic 20 ga. Steel sealing casket ($1,580.00): $6,195.00
 
           <h6 className="blue-text">Selection Three</h6>
-          Above package with a Pearl Rose 18 ga. Steel sealing casket ($1,740.00): $6,255.00
+          Above package with a Pearl Rose 18 ga. Steel sealing casket ($1,800.00): $6,415.00
 
           <h6 className="blue-text">Selection Four</h6>
-          Above package with a Livingston solid oak wood casket ($2,173.00): $6,688.00
+          Above package with a Livingston solid oak wood casket ($2,238.00): $6,853.00
 
           <h6 className="blue-text">Selection Five</h6>
-          Above package with a Provincial Solid Poplar Wood casket ($2,683.00): $7,198.00
+          Above package with a Provincial Solid Poplar Wood casket ($2,763.00): $7,378.00
 
           <h6 className="blue-text center">**** Concrete Vaults starting at $799.00 not included in the above prices. ****</h6>
 
