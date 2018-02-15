@@ -64,7 +64,7 @@ const Cremation = () => ({
 
         <p>Includes removal, office work, placing obituary, transportation expense, plastic utility urn, cremation container and crematory charge Family to Compose Obituary.
               (Must be paid at or prior to time of need).
-               <span className="bold"> $965.00</span></p>
+               <span className="bold"> $990.00</span></p>
 
         <h5 className="blue-text">Additional charges for the following services:</h5>
         <ul className="disc-list">

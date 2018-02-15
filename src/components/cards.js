@@ -171,7 +171,8 @@ const Cards = () => ({
           <br />
           <br />
 
-          <h6>*The following are available on Memorial Folders only:</h6>
+          <h5>*The following are available on Memorial Folders only:</h5>
+
 
 
           <h5>Selection 9</h5>
