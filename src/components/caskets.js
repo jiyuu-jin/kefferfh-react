@@ -22,7 +22,7 @@ const Caskets = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/caskets/lincoln.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/caskets/lincoln.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">LINCOLN</h6>
@@ -38,7 +38,7 @@ const Caskets = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/caskets/newport.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/caskets/newport.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">NEWPORT</h6>
@@ -54,7 +54,7 @@ const Caskets = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/caskets/mansfield.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/caskets/mansfield.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">MANSFIELD</h6>
