@@ -16,7 +16,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/grave_liner.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/grave_liner.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">GRAVE LINER</h6>
@@ -31,7 +31,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/standard.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/standard.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">STANDARD</h6>
@@ -52,7 +52,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/monticello.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/monticello.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">MONTICELLO</h6>
@@ -66,7 +66,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/continental.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/continental.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">Continental</h6>
@@ -81,7 +81,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/venetian.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/venetian.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">Venetian</h6>
@@ -96,7 +96,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/stainles_steel.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/stainles_steel.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">STAINLESS STEEL TRIUNE</h6>
@@ -111,7 +111,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/copper_triune.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/copper_triune.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">COPPER TRIUNE</h6>
@@ -128,7 +128,7 @@ const Containers = () => ({
         <div className="section">
           <div className="row">
             <div className="col m3">
-              <img className="casketOffset" alt="lincoln" src="/images/containers/bronzetriune.webp" />
+              <img className="casketOffset" alt="lincoln" src="/images/containers/bronzetriune.jpg" />
             </div>
             <div className="col m8">
               <h6 className="blue-text">BRONZE TRIUNE</h6>
