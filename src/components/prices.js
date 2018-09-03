@@ -95,9 +95,9 @@ class Prices extends Component {
           Our charge for an immediate burial (without any attendant rites or ceremonies) includes removal and shelter of the remains, local transportation to cemetery, necessary services of staff and authorizations.
 
           <ol>
-            <li>Immediate burial without casket selected.  Price of casket additional. (from $355): $1,570.00</li>
-            <li>Immediate burial with alternative (Union) container (Flannel Covered): $1,965.00</li>
-            <li>Immediate burial with container provided by purchaser.: $1,570.00</li>
+            <li>Immediate burial without casket selected.  Price of casket additional. (from $415): $1,620.00</li>
+            <li>Immediate burial with alternative (Union) container (Flannel Covered): $1,990.00</li>
+            <li>Immediate burial with container provided by purchaser.: $1,620.00</li>
           </ol>
 
         <h6 className="blue-text">A LIST OF IMMEDIATE BURIAL SERVICE WITH ADDITIONAL SERVICES AND CHARGES IS AVAILABLE FROM FUNERAL HOME.</h6>
