@@ -251,12 +251,12 @@ class Home extends Component {
               </div>
               <div className="col s12 m4">
                 <div className="icon-block">
-                  <img alt=" " src="/images/award.png" />
+                  <img className="best" alt=" " src="/images/2018.jpg" />
                 </div>
               </div>
               <div className="col s12 m4">
                 <div className="icon-block">
-                  <img alt=" " src="/images/secure_choice.png" />
+                  <img className="best" alt=" " src="/images/secure_choice.png" />
                 </div>
               </div>
             </div>
