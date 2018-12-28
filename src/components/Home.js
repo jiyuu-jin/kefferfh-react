@@ -156,6 +156,20 @@ class Home extends Component {
                 <span>Admin. Associate</span>
               </div>
             </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/Grace_Keffer_Ireland" />
+              <div className="staff-title">
+                <span>Grace Keffer Ireland</span><br />
+                <span>Admin. Assistant</span>
+              </div>
+            </div>
+            <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/ Patrick_O_Brien.jpg" />
+              <div className="staff-title">
+                <span>Patrick F. O'Brien</span> <br />
+                <span>Funeral Director</span>
+              </div>
+            </div>
           </div>
         </div>
 
