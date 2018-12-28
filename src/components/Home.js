@@ -166,7 +166,7 @@ class Home extends Component {
             <div className="staff-mem">
               <img alt=" " height="200px" src="/images/Patrick_O_Brien.jpg" />
               <div className="staff-title">
-                <span>Patrick F. O\'Brien</span> <br />
+                <span>Patrick F. O'Brien</span> <br />
                 <span>Funeral Director</span>
               </div>
             </div>

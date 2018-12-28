@@ -93,6 +93,8 @@ nav ul a{
 }
 
 .staff-mem{
+    font-size: 13px;
+    font-weight: bold;
     display: inline-block;
 }
 
