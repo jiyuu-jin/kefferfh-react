@@ -143,6 +143,13 @@ class Home extends Component {
               </div>
             </div>
             <div className="staff-mem">
+              <img alt=" " height="200px" src="/images/Patrick_O_Brien.jpg" />
+              <div className="staff-title">
+                <span>Patrick F. O'Brien</span> <br />
+                <span>Funeral Director</span>
+              </div>
+            </div>
+            <div className="staff-mem">
               <img alt=" " height="200px" src="/images/kevin_sandmeyer.jpg" />
               <div className="staff-title">
                 <span>Kevin C. Sandmeyer</span> <br />
@@ -161,13 +168,6 @@ class Home extends Component {
               <div className="staff-title">
                 <span>Grace Keffer Ireland</span><br />
                 <span>Admin. Assistant</span>
-              </div>
-            </div>
-            <div className="staff-mem">
-              <img alt=" " height="200px" src="/images/Patrick_O_Brien.jpg" />
-              <div className="staff-title">
-                <span>Patrick F. O'Brien</span> <br />
-                <span>Funeral Director</span>
               </div>
             </div>
           </div>
