@@ -6,7 +6,7 @@ class Prices extends Component {
     return (
       <div className="container">
         <h4 className="blue-text">General Price List</h4>
-        <p>Effective January 1, 2018</p>
+        <p>Effective January 1, 2019</p>
 
           The goods and services shown are those we can provide to our customers.  You may choose only the items you desire.  However, any funeral arrangements you select will include a charge for our basic services and overhead.  If legal or other requirements mean you must buy items you did not specifically ask for, we will explain the reason in writing on the statement we provide describing the funeral goods and services you selected.
 
@@ -65,8 +65,8 @@ class Prices extends Component {
 
           <h5 className="blue-text">MERCHANDISE</h5>
         <ul>
-          <li>Caskets (see casket price list for details): $415.00 to $7,385.00</li>
-          <li> Cremation Containers/Caskets: $85.00 to $11,110.00</li>
+          <li>Caskets (see casket price list for details): $465.00 to $11,650.00</li>
+          <li> Cremation Containers/Caskets: $85.00 to $11,650.00</li>
           <li>Outer Burial Containers (see Outer Burial Container price list for details.): $799.00 to $4,4489.00
                   Acknowledge Cards per 25: $10.00</li>
           <li>Register Book(s) + setup: $80.00</li>
@@ -91,18 +91,18 @@ class Prices extends Component {
           <h6 className="blue-text">RECEIVING OF REMAINS FROM ANOTHER FUNERAL HOME / MORTUARY - $925.00</h6>
           This charge includes temporary shelter of the remains, transportation of remains to cemetery, or crematory, and required services of staff.  It does not include the services of staff, or the use of facilities, for viewing or funeral rites / ceremonies.
 
-          <h6 className="blue-text">IMMEDIATE BURIALS - $1,620.00 to $8,165.00</h6>
+          <h6 className="blue-text">IMMEDIATE BURIALS - $1,575.00 to $8,165.00</h6>
           Our charge for an immediate burial (without any attendant rites or ceremonies) includes removal and shelter of the remains, local transportation to cemetery, necessary services of staff and authorizations.
 
           <ol>
-            <li>Immediate burial without casket selected.  Price of casket additional. (from $415): $1,620.00</li>
-            <li>Immediate burial with alternative (Union) container (Flannel Covered): $1,990.00</li>
-            <li>Immediate burial with container provided by purchaser.: $1,620.00</li>
+            <li>Immediate burial without casket selected.  Price of casket additional. (from $465): $1,575.00</li>
+            <li>Immediate burial with alternative (Union) container (Flannel Covered): $2,040.00</li>
+            <li>Immediate burial with container provided by purchaser.: $1,575.00</li>
           </ol>
 
         <h6 className="blue-text">A LIST OF IMMEDIATE BURIAL SERVICE WITH ADDITIONAL SERVICES AND CHARGES IS AVAILABLE FROM FUNERAL HOME.</h6>
 
-        <h6 className="blue-text">DIRECT CREMATIONS - $990.00 to $7,540.00</h6>
+        <h6 className="blue-text">DIRECT CREMATIONS - $1090.00 to $7,640.00</h6>
           Our charge for a direct cremation without any attendant rites or ceremonies includes:
 
           Office work / placing obituary
@@ -124,15 +124,15 @@ class Prices extends Component {
 
         <p>If you want to arrange a direct cremation, you can use the alternative container.  Alternative containers encase the body and can be made of materials like fiberboard or composition materials (with or without outside covering).  The containers we provide are reinforced cardboard.</p>
 
-        <hp>Direct Cremation with alternative container - $990.00
+        <hp>Direct Cremation with alternative container - $1090.00
               Description: Reinforced cardboard</hp>
 
 
-        <p>Direct Cremation with container provided by purchaser - $905.00</p>
+        <p>Direct Cremation with container provided by purchaser - $1005.00</p>
 
 
         <h6 className="blue-text">Payment Policy</h6>
-        <p>With approved credit the funeral home allows thirty days for full payment of funeral home charges.  Credit card payments are accepted subject to a 1-3% processing fee.</p>
+        <p>With approved credit the funeral home allows thirty days for full payment of funeral home charges.  Credit card payments are accepted subject to a 4% processing fee.</p>
       </div>
     );
   }
