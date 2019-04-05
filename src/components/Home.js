@@ -37,8 +37,8 @@ class Home extends Component {
               <div className="row">
 
                 <div className="search-contain">
-                  <h5>Search Obituaries</h5>
-                  <input onClick={openModal} />
+                  <a style={{  margin: '20px auto 0 auto' }} className="waves-effect waves-light btn-large"> <h5 style={{fontSize: '25px', fontWeight: '300' }} onClick={openModal}>Click to Search Obituaries</h5>
+                  </a>
                 </div>
               </div>
             </div>
