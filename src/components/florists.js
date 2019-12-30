@@ -13,7 +13,7 @@ class Prices extends Component {
         <div className="row">
           <div className="col l6 s12">
             <h6>Lincolnway Flower Shop & Greenhouses</h6>
-                        3420 E. Market St.
+                        3601 East Market St.
                         York, PA 17402
                         (717) 755-4961|
                         www.lincolnwayflowershop.com
