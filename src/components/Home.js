@@ -37,10 +37,9 @@ class Home extends Component {
               <div className="row">
 
                 <div className="search-contain">
-                  <a style={{  margin: '20px auto 0 auto' }} className="waves-effect waves-light btn-large"> <h5 style={{fontSize: '25px', fontWeight: '300' }} onClick={openModal}>Click to Search Obituaries</h5>
-                  </a>
-                  <h4> style={{ color: 'black', fontWeight: 'bold' }}>* By clicking the search you will be redirected to legacy.com</h4>
+                  <a style={{ backgroundColor: '#005497', margin: '20px auto 0 auto' }} className="waves-effect waves-light btn-large"> <h5 style={{fontSize: '25px', fontWeight: '300' }} onClick={openModal}>Click to Search Obituaries</h5></a>
                 </div>
+                <h6 style={{ textAlign: 'center', display: 'block', color: 'black', fontWeight: 'bold' }}>* By clicking the search you will be redirected to legacy.com</h6>
               </div>
             </div>
 
